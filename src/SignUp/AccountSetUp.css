@@ -1,0 +1,149 @@
+.main_acc_set_up {
+    background-color: #1F1F1F;
+    height: auto;
+    width: 100%;
+}
+
+.app_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    padding: 20px 15px;
+}
+
+.form_container {
+    background-color: #F9FAFF;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form_container h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.form_container label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 11px;
+    color: #7E7E7E;
+    font-size: 13px;
+}
+
+.form_container input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    /* margin-bottom: 16px; */
+}
+
+.form_container .input_1_email {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 6px;
+}
+
+.submit_form button {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 12px 22px 12px 22px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit_form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new_pass {
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 11px; */
+}
+
+.new_pass .input_password {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    /* border: 1px solid black; */
+}
+
+.new_pass .password_toggle_btn {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    color: #7E7E7E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input_con_pass {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_con_pass .con_pass_input {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    /* border: 1px solid black; */
+}
+
+.input_con_pass .con_password_toggle_btn {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    /* border: 1px solid black; */
+    border: none;
+    background-color: transparent;
+    color: #7E7E7E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1080px) {
+    .app_container {
+        padding: 15px;
+    }
+
+    .form_container {
+        background-color: #F9FAFF;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+}

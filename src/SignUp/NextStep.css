@@ -1,0 +1,328 @@
+.sub_signup_form12 {
+    width: 50%;
+    padding: 15px 65px;
+
+}
+
+.input_fields12 {
+    height: auto;
+    border-radius: 20px;
+    background-color: #F9FAFF;
+    padding: 15px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_fields12 h4 {
+    font-weight: 500;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.main_inputs_f {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input1 label {
+    font-size: 12px;
+}
+
+.input1 input {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input2 {
+    width: 100%;
+}
+
+.input2 {
+    /* display: flex; */
+    margin-top: 50px;
+    /* flex-direction: column; */
+}
+
+.input2 label {
+    font-size: 12px;
+}
+
+.input13 label {
+    font-size: 12px;
+}
+
+.inputs_new {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputs_new input {
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    width: 70%;
+}
+
+.inputs_new button {
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.pop_up_modal {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pop_up_modal input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.pop_up_modal button {
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #4285F4;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.verify_now_otp {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.verify_now_otp h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.para_verify {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 14px;
+}
+
+.verify_butn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.verify_butn input {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.verify_butn button {
+    background-color: #59C277;
+    padding: 12px 22px 12px 22px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+}
+
+.verify_butn12 {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.verify_butn12 p {
+    color: #656565;
+}
+
+
+.verify_butn12 button {
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+}
+
+.new_terms_c {
+    display: flex;
+    margin-top: 45px;
+    gap: 10px;
+}
+
+.new_terms_c input[type="checkbox"] {
+    transform: scale(1.5);
+    border-radius: 0px;
+}
+
+.new_terms_c p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #656565;
+}
+
+.new_terms_c1 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.new_terms_c1 input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.new_terms_c1 p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #656565;
+}
+
+.btn_sign {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_sign button {
+    width: 50%;
+    display: flex;
+    background-color: #4285F4;
+    align-items: center;
+    padding: 12px 22px 12px 22px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+}
+
+.btn_sign p {
+    color: #656565;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.signup_error_message {
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.new_checked {
+    color: #59C277;
+    font-size: 40px;
+}
+
+@media screen and (max-width : 1180px) {
+    .sub_signup_form12 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        margin-top: 15px;
+        padding: 20px;
+    }
+
+    .main_inputs_f {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputs_new {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputs_new button {
+        display: block;
+        width: 100%;
+    }
+
+    .input2 input {
+        width: 100%;
+    }
+
+    .new_terms_c p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .new_terms_c1 p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #656565;
+    }
+
+
+    .btn_sign button {
+        width: 100%;
+        display: flex;
+        background-color: #4285F4;
+        align-items: center;
+        padding: 12px 22px 12px 22px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        justify-content: center;
+    }
+
+    .new_verify {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .phone_inputs_country_wise {
+        width: 50%;
+    }
+}

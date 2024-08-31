@@ -1,0 +1,371 @@
+.main_sol_page_rcs {
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.main_sol_page_rcs h1 {
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+.main_sol_page_rcs p {
+    padding-right: 470px;
+    font-size: 20px;
+    position: relative;
+    bottom: 65px;
+    align-items: start;
+
+}
+
+.main_sol_page11 {
+    display: none;
+}
+
+.new_1_goal_fea {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+
+}
+
+.goal_new_fea1 {
+    justify-items: start;
+    /* margin-left: -20px; */
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.goal_new_fea1 img {
+    display: flex;
+    align-content: flex-start;
+    width: 100px;
+    flex-direction: row;
+    overflow: auto;
+
+}
+
+.goal_new_fea1 div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.new_svg_impo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new_image1_h {
+    margin: auto;
+    width: 90%;
+    margin-top: 45px;
+    background-image: url("/src/Assets/Fame phone.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.new_image1_h img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.sub_goal img {
+    display: flex;
+    background-image: url('../Assets/Blob 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.why_celetel {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 200px;
+}
+
+.why_celetel img {
+    background-image: url('../Assets/Blob.svg');
+    background-repeat: no-repeat;
+}
+
+.text_area_1 {
+    padding-left: 120px;
+    padding-right: 10px;
+}
+
+.text_area_1 h2 {
+    font-size: 36px;
+}
+
+.text_area_1 p {
+    margin-top: 20px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.unlock_features {
+    background-color: #D2F1FF;
+    background-image: url('../Assets/CTA section.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: auto;
+    padding: 85px 44px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.unlock_features h1 {
+    padding-top: 25px;
+}
+
+.unlock_features p {
+    padding-top: 10px;
+    color: #667085;
+}
+
+.btn4 {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn4 button:first-child {
+    margin-top: 22px;
+    padding: 0px 100px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn4 button:last-child {
+    margin-top: 22px;
+    padding: 0px 100px;
+    margin-top: 20px;
+    background-color: var(--previous-bg);
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.btn4 button:last-child:hover {
+    transition: .4s ease-in-out;
+    background-color: var(--button-bg);
+    color: black;
+
+}
+
+.img_new {
+    width: 100%;
+    margin: auto;
+
+}
+
+.img_new img {
+    width: 100%;
+}
+
+.security_rcs_rcs {
+    margin: auto;
+    margin-top: 155px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+.faq_s {
+    margin-top: 155px;
+}
+
+.btn2_3 {
+    display: flex;
+    gap: 15px;
+    margin-top: 16px;
+}
+
+.btn2_3 button:first-child {
+    background-color: var(--previous-bg);
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    transition: .4s ease-in-out;
+    padding: 10px 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn2_3 button:first-child:hover {
+    background-color: var(--button-bg);
+    color: black;
+    transition: .4s ease-in-out;
+}
+
+.btn2_3 button:last-child {
+    border: 1px solid var(--button-bg);
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width :1080px) {
+    .main_sol_page_rcs {
+        display: none;
+    }
+
+    .new_image1_h {
+        display: none;
+    }
+
+    .main_sol_page11 {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main_sol_page11 h1 {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .main_sol_page11 p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .img_1_new {
+        width: 100%;
+        margin-top: 50px;
+        border-radius: 15px;
+        background-color: #E7F3BC;
+    }
+
+    .img_1_new img {
+        width: 100%;
+    }
+
+    .sub_goal img {
+        display: flex;
+        background-image: url('../Assets/Blob 1.svg');
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_celetel {
+        display: flex;
+        margin-top: 85px;
+        flex-direction: column-reverse;
+    }
+
+    .why_celetel img {
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .text_area_1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .text_area_1 h2 {
+        margin-top: 20px;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .text_area_1 p {
+        margin-top: 13px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .unlock_features {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .unlock_features h1 {
+        font-size: 20px;
+    }
+
+    .unlock_features p {
+        font-size: 13px;
+        color: #667085;
+    }
+
+    .btn4 {
+        padding: 0;
+        width: 100%;
+    }
+
+    .btn4 button:nth-child(1) {
+        border-radius: 3px;
+        padding: 7px 25px;
+        background-color: #FAC213;
+    }
+
+    .btn4 button:nth-child(2) {
+        border-radius: 3px;
+        background-color: #ffff;
+        padding: 7px 25px;
+        color: black;
+        border: 2px solid #FAC213;
+    }
+
+    .btn4 {
+        padding: 0;
+    }
+
+    .security_rcs_rcs {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .para_seq {
+        padding: 10px;
+    }
+
+    .para_seq h1 {
+        font-size: 23px;
+    }
+
+    .btn2_3 {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        margin: auto;
+    }
+}

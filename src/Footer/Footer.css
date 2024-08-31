@@ -1,0 +1,202 @@
+.main_footer {
+    margin-top: 150px;
+    background-color: #FBFBFB;
+    /* border: 1px solid red; */
+    padding: 30px 55px;
+}
+
+.sub_footer {
+    /* border: 1px solid firebrick; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_clas_f {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.logo_clas_f p,
+span {
+    color: #667085;
+    font-size: 16px;
+}
+
+.sub_foot {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    flex-grow: 2;
+    margin-bottom: 20px;
+
+}
+
+.sub_foot a:first-child {
+    color: gray;
+}
+
+.new_foot {
+    display: flex;
+    flex-basis: 15%;
+    flex-grow: 1;
+}
+
+.new_foot .sub_2_foot {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.new_foot .sub_3_foot a:first-child {
+    color: #667085;
+
+}
+
+.new_foot a {
+    /* border: 1px solid red; */
+    display: block;
+    padding: 5px 5px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.sub_foot a {
+    /* border: 1px solid red; */
+    display: block;
+    padding: 5px 5px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sub_foot a {
+    /* border: 1px solid red; */
+    display: block;
+    padding: 5px 5px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sub_2_foot {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.last_foot {
+    justify-content: space-between;
+    display: flex;
+    color: #98A2B3;
+    align-items: center;
+}
+
+.icons_ref {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons_ref p {
+    font-size: 23px;
+    color: #98A2B3;
+}
+
+.sub_2_foot1 {
+    display: none;
+}
+
+.sub_20_foot {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main_footer {
+        padding: 10px 10px;
+    }
+
+    .logo_clas_f img {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .logo_clas_f p {
+        margin-top: 15px;
+    }
+
+    .sub_footer {
+        flex-direction: column;
+    }
+
+    .sub_foot {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        padding: 0px 10px;
+        flex-direction: row;
+    }
+
+    .sub_2_foot {
+        display: none;
+    }
+
+    .sub_3_foot {
+        display: none;
+    }
+
+    .sub_20_foot {
+        display: block;
+    }
+
+    .sub_20_foot a:first-child {
+        color: #667085;
+    }
+
+    .sub_20_foot a {
+        color: #A5ACBA;
+    }
+
+    .new_foot {
+        flex-basis: 85%;
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+
+    .sub_2_foot:nth-child(3) {
+        display: none;
+    }
+
+    .sub_2_foot1 {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .sub_2_foot1 p {
+        display: flex;
+        padding: 3px 3px;
+        color: #98A2B3;
+        float: right;
+    }
+
+    .last_foot {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-top: 15px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .icons_ref {
+        display: none;
+    }
+}

@@ -1,0 +1,150 @@
+.main_new_all_pricing {
+    width: 93%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 85px;
+}
+
+
+.heading_all_pricing h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.heading_all_pricing p {
+    color: #263238;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.sub_all_pricing {
+    margin-top: 30px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sub_all_pricing p {
+    color: #00000080;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 35px;
+}
+
+.switch input {
+    opacity: 1;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: #fff;
+    transition: .4s;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.9em;
+    width: 1.9em;
+    border-radius: 16px;
+    left: 1.2px;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px #999999;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #56E6A5;
+    border: 1px solid transparent;
+}
+
+input:checked+.slider:before {
+    transform: translateX(1.5em);
+}
+
+.new_pricing_list {
+    width: 98%;
+    margin: auto;
+    margin-top: 85px
+}
+
+.new_pricing_cards_all {
+    border-radius: 25px;
+    border: 1px solid #E2DCDC;
+    padding: 45px 55px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(174, 172, 172, 0.21);
+}
+
+.name_of_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prices_new h3 {
+    color: #959595;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.prices_new h4 {
+    color: #272727;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+.cards_new_pricing_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 82px;
+    margin-top: 20px;
+    border-radius: 18px;
+    background: #F4FBDB;
+}
+
+
+@media screen and (max-width:1080px) {
+    .heading_all_pricing h1 {
+        font-size: 20px;
+    }
+
+    .heading_all_pricing p {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .new_pricing_cards_all{
+        padding: 10px;
+    }
+
+
+    .cards_new_pricing_list {
+        display: flex;
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+        padding: 5px;
+        flex-direction: column;
+    }
+}

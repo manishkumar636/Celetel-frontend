@@ -1,0 +1,374 @@
+.main_explore_signup {
+    width: 90%;
+    margin: auto;
+    margin-top: 45px;
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 15px 35px;
+    background-color: #F9FAFF;
+    border-radius: 20px;
+}
+
+.main_explore_signup h1 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 42px;
+}
+
+.sub_explore_media {
+    margin-top: 45px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+
+.new1_media {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.043) 1.95px 1.95px 2.6px;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.img1 {
+    padding: 4px 4px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: #D5FFE3;
+}
+
+.img2 {
+    padding: 4px 4px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: #C5E1FF;
+}
+
+.img3 {
+    padding: 4px 4px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: #C4E7FF;
+}
+
+.img4 {
+    padding: 4px 4px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: #FFEBBF;
+}
+
+.text_al_media {
+    display: flex;
+    gap: 12px;
+}
+
+.text_al_media h5 {
+    font-size: 20px;
+}
+
+.text_al_media p {
+    font-size: 12px;
+    color: #817E7E;
+}
+
+.new1_media button {
+    padding: 5px 22px 5px 22px;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main_pricing_a {
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    background-color: #FCFCFD;
+    width: 90%;
+}
+
+.main_pricing_a h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.sub_pricing_head {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sub_pricing_head p:first-child {
+    color: #00000080;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sub_pricing_head p:last-child {
+    color: #4285F4;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 35px;
+}
+
+.switch input {
+    opacity: 1;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: #fff;
+    transition: .4s;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.9em;
+    width: 1.9em;
+    border-radius: 16px;
+    left: 1.2px;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px #999999;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #4285F4;
+    border: 1px solid transparent;
+}
+
+input:checked+.slider:before {
+    transform: translateX(1.5em);
+}
+
+.new_pricing_pro {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.new_price1 {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 30%;
+    padding: 10px 15px;
+}
+
+.new_price1 h3 {
+    font-size: 27px;
+}
+
+.new_price1 h5 {
+    font-size: 27px;
+}
+
+.new_price1 p {
+    /* border: 1px solid rgb(0, 0, 0); */
+    color: #667085;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.new_points1 {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8px;
+    margin-top: 23px;
+}
+
+.new_points1 span {
+    background-color: #F4EBFF;
+    border-radius: 50%;
+    color: #4285F4;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.new_points1 p {
+    color: #000000;
+}
+
+.btn_price button {
+    width: 100%;
+    margin-top: 28px;
+    border: 2px solid #4285F4;
+    color: #4285F4;
+    font-size: 18px;
+    font-weight: 700;
+    background: transparent;
+    border-radius: 4px;
+    padding: 16px 8px 16px 8px;
+}
+
+.btn_price12 button {
+    width: 100%;
+    margin-top: 28px;
+    background-color: #4285F4;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 8px 16px 8px;
+}
+
+.btn_price13 button {
+    width: 100%;
+    margin-top: 28px;
+    border: 2px solid #4285F4;
+    color: #4285F4;
+    font-size: 18px;
+    background: transparent;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 8px 16px 8px;
+}
+
+.main_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.new_images {
+    background-color: #FFF8D2;
+    display: flex;
+    border-radius: 6px;
+    padding: 5px 5px;
+    gap: 10px;
+    align-items: center;
+}
+
+.new_images p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.btn1_setup {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1_setup button {
+    padding: 7.72px 77.24px 7.72px 77.24px;
+    border-radius: 5.15px;
+    background-color: #2E2E2E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 1070px) {
+    .main_explore_signup h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .sub_explore_media {
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new1_media {
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .t1 h5 {
+        font-size: 17px;
+    }
+
+    .new1_media button {
+        padding: 1px 10px;
+        background-color: black;
+        border-radius: 6px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+    .new_pricing_pro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .new_price1 {
+        width: 100%;
+    }
+
+    .main_pricing_a h1 {
+        width: 100%;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .sub_pricing_head {
+        /* border: 1px solid red; */
+        display: flex;
+        width: 100%;
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+
+    .sub_pricing_head p:first-child {
+        font-size: 12px;
+    }
+
+    .sub_pricing_head p:last-child {
+        font-size: 12px;
+    }
+
+
+}

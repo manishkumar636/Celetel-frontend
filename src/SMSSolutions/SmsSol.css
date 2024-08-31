@@ -1,0 +1,284 @@
+.sub_sms_sol_mobile {
+    display: none;
+}
+
+.main_sms_sol {
+    margin-top: 75px;
+    padding: 45px 108px;
+}
+
+
+.sub_sms_sol {
+    display: flex;
+    background: url('../Assets/1stone.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 75px;
+    padding-top: 35px;
+    gap: 45px;
+    height: auto;
+}
+
+
+.sub_sms_sol img {
+    width: 40%;
+}
+
+.para_sol {
+    margin-top: 95px;
+    /* background: url('../Assets/curved-arrow-ULkKOmYgj4.svg'); */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid red; */
+}
+
+.para_sol h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.para_sol p {
+    font-size: 18px;
+    padding-top: 18px;
+    color: #666666;
+}
+
+.para_sol button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--previous-bg);
+    border: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 15px 55px;
+    font-size: 15px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.para_sol button:hover {
+    background-color: var(--button-bg);
+    transition: .4s ease-in-out;
+    color: black;
+}
+
+.sub_sms_sol1 {
+    margin-top: 60px;
+    display: flex;
+    background: url('../Assets/giveittry.svg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.para_sol1 {
+    margin-top: 55px;
+    padding: 1px 55px;
+    /* border: 1px solid red; */
+}
+
+.para_sol1 h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.para_sol1 p {
+    font-size: 18px;
+    color: #454444;
+}
+
+.para_sol1 button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--previous-bg);
+    border: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 15px 55px;
+    font-size: 15px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.para_sol1 button:hover {
+    background-color: var(--button-bg);
+    transition: .4s ease-in-out;
+    color: black;
+}
+
+.sub_image_sol_1 {
+    display: flex;
+    width: 100%;
+}
+
+.sub_image_sol_1 img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1310px) {
+    .main_sms_sol {
+        padding: 10px;
+    }
+
+    .sub_sms_sol {
+        display: flex;
+        background: url('../Assets/1stone.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-left: 30px;
+        padding-top: 35px;
+        gap: 25px;
+        height: auto;
+    }
+
+
+    .sub_sms_sol img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .main_sms_sol {
+        padding: 0;
+        width: 100%;
+    }
+
+    .para_sol {
+        padding: 10px 10px;
+    }
+
+    .para_sol h1 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 23px;
+    }
+
+    .para_sol p {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    .para_sol button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 35px;
+        padding: 10px 35px;
+    }
+
+    .sub_sms_sol {
+        display: none;
+    }
+
+    .sub_sms_sol_mobile {
+        display: flex;
+        flex-direction: column-reverse;
+        background: url('../Assets/1stone.svg');
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: cover;
+        gap: 45px;
+        height: auto;
+    }
+
+    .sub_sms_sol_mobile img {
+        width: 35%;
+        margin: auto
+    }
+
+
+    .para_sol_mobile {
+        padding: 10px 10px;
+    }
+
+    .para_sol_mobile h1 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 23px;
+    }
+
+    .para_sol_mobile p {
+        display: flex;
+        align-items: center;
+        color: #454444;
+        font-weight: 500;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    .para_sol_mobile button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: var(--button-bg);
+        border: none;
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 10px 35px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .sub_sms_sol1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 5px 5px; */
+        width: 100%;
+        justify-content: center;
+    }
+
+    .para_sol1 {
+        padding: 10px 10px;
+    }
+
+    .para_sol1 h1 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 23px;
+    }
+
+    .para_sol1 p {
+        display: flex;
+        align-items: center;
+        color: #454444;
+        font-weight: 500;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .para_sol1 button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 15px;
+        padding: 10px 35px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .sub_sms_sol_mobile img {
+        width: 80%;
+        margin: auto
+    }
+}
